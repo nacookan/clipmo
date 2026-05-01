@@ -1,0 +1,49 @@
+"menu.status.openClipmoFolder" = "Open Clipmo Folder";
+"menu.status.quitClipmo" = "Quit Clipmo";
+"menu.section.currentClipboard" = "Current Clipboard";
+"menu.section.currentClipboard.empty" = "Unsupported or Empty";
+"menu.history.empty" = "No History";
+"menu.snippets.empty" = "No Snippets";
+"menu.common.empty" = "Empty";
+"menu.transforms.builtIn" = "Built-in";
+"menu.transforms.custom" = "Custom";
+"menu.transforms.custom.empty" = "No Custom Transforms";
+"menu.section.history" = "History";
+"menu.section.history.copyOnly" = "History (Copy Only)";
+"menu.section.history.revealInFinder" = "History (Open in Finder)";
+"menu.section.history.repeatPaste" = "History (Repeat Paste)";
+"menu.section.snippets" = "Snippets";
+"menu.section.snippets.copyOnly" = "Snippets (Copy Only)";
+"menu.section.snippets.revealInFinder" = "Snippets (Open in Finder)";
+"menu.section.snippets.repeatPaste" = "Snippets (Repeat Paste)";
+"menu.section.transforms" = "Transforms";
+"menu.section.transforms.repeatApply" = "Transforms (Repeat Apply)";
+
+"menu.preview.blank" = "(Blank)";
+"menu.tooltip.unknownTimestamp" = "Unknown";
+"menu.tooltip.imageData" = "Image Data";
+"menu.tooltip.transform.pattern" = "Regex: %@";
+"menu.tooltip.transform.replacement" = "Replacement: %@";
+"menu.preview.file.empty" = "[File]";
+"menu.preview.file.single" = "[File] %@";
+"menu.preview.file.multiple" = "[Files %d] %@";
+"menu.tooltip.fileCount" = "%d file(s)";
+"menu.tooltip.image" = "Image";
+"menu.tooltip.textCount" = "%d chars";
+"menu.tooltip.singleCharacterDetail" = "1 char %@ (UTF-8: %@)";
+
+"hud.transformed" = "Transformed";
+"hud.copied" = "Copied";
+"hud.ocrCompleted" = "OCR Completed";
+
+"error.hotKey.unsupportedKey" = "Unsupported hot key: %@";
+"error.hotKey.registrationFailed" = "Failed to register hot key: %d";
+
+"transform.builtIn.unicodeCodePoints.name" = "Unicode Code Points";
+"transform.builtIn.unicodeCodePoints.tooltip" = "Displays Unicode code points in U+XXXX format";
+"transform.builtIn.utf8Bytes.name" = "UTF-8 Bytes";
+"transform.builtIn.utf8Bytes.tooltip" = "Displays UTF-8 bytes in hexadecimal";
+"transform.builtIn.urlEncode.name" = "URL Encode";
+"transform.builtIn.urlEncode.tooltip" = "Percent-encodes the current string";
+"transform.builtIn.urlDecode.name" = "URL Decode";
+"transform.builtIn.urlDecode.tooltip" = "Decodes a percent-encoded string";

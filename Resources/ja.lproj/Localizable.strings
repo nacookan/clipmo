@@ -1,0 +1,49 @@
+"menu.status.openClipmoFolder" = "Clipmoフォルダを開く";
+"menu.status.quitClipmo" = "Clipmoを終了";
+"menu.section.currentClipboard" = "現在のクリップボード";
+"menu.section.currentClipboard.empty" = "対応なしまたは空";
+"menu.history.empty" = "履歴なし";
+"menu.snippets.empty" = "スニペットなし";
+"menu.common.empty" = "空";
+"menu.transforms.builtIn" = "組み込み";
+"menu.transforms.custom" = "カスタム";
+"menu.transforms.custom.empty" = "カスタム変換なし";
+"menu.section.history" = "履歴";
+"menu.section.history.copyOnly" = "履歴 (コピーのみ)";
+"menu.section.history.revealInFinder" = "履歴 (Finderで開く)";
+"menu.section.history.repeatPaste" = "履歴 (連続貼り付け)";
+"menu.section.snippets" = "スニペット";
+"menu.section.snippets.copyOnly" = "スニペット (コピーのみ)";
+"menu.section.snippets.revealInFinder" = "スニペット (Finderで開く)";
+"menu.section.snippets.repeatPaste" = "スニペット (連続貼り付け)";
+"menu.section.transforms" = "変換";
+"menu.section.transforms.repeatApply" = "変換 (連続適用)";
+
+"menu.preview.blank" = "(空白)";
+"menu.tooltip.unknownTimestamp" = "不明";
+"menu.tooltip.imageData" = "画像データ";
+"menu.tooltip.transform.pattern" = "正規表現: %@";
+"menu.tooltip.transform.replacement" = "置換文字: %@";
+"menu.preview.file.empty" = "[ファイル]";
+"menu.preview.file.single" = "[ファイル] %@";
+"menu.preview.file.multiple" = "[ファイル %d件] %@";
+"menu.tooltip.fileCount" = "%dファイル";
+"menu.tooltip.image" = "画像";
+"menu.tooltip.textCount" = "%d文字";
+"menu.tooltip.singleCharacterDetail" = "1文字 %@ (UTF-8: %@)";
+
+"hud.transformed" = "変換しました";
+"hud.copied" = "コピーしました";
+"hud.ocrCompleted" = "OCRしました";
+
+"error.hotKey.unsupportedKey" = "未対応のホットキーです: %@";
+"error.hotKey.registrationFailed" = "ホットキー登録に失敗しました: %d";
+
+"transform.builtIn.unicodeCodePoints.name" = "Unicodeコードポイント";
+"transform.builtIn.unicodeCodePoints.tooltip" = "Unicode コードポイントを U+XXXX 形式で並べます";
+"transform.builtIn.utf8Bytes.name" = "UTF-8バイト列";
+"transform.builtIn.utf8Bytes.tooltip" = "UTF-8 のバイト列を 16 進で並べます";
+"transform.builtIn.urlEncode.name" = "URLエンコード";
+"transform.builtIn.urlEncode.tooltip" = "現在の文字列を percent-encoding します";
+"transform.builtIn.urlDecode.name" = "URLデコード";
+"transform.builtIn.urlDecode.tooltip" = "percent-encoding された文字列を元に戻します";

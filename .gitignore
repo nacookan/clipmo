@@ -1,0 +1,6 @@
+.build
+build
+.home
+.swiftpm-cache
+.vscode
+.DS_Store
