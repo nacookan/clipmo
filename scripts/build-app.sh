@@ -58,6 +58,10 @@ if [[ -d "$ROOT_DIR/Resources/Assets.xcassets" ]]; then
   rm -f "$APP_DIR/Contents/Resources/actool-info.plist"
 fi
 
+for strings_file in "$APP_DIR"/Contents/Resources/**/*.strings(N); do
+  plutil -convert binary1 "$strings_file"
+done
+
 ENTITLEMENTS_PATH="$ROOT_DIR/Resources/Clipmo.entitlements"
 codesign --force --deep --sign - --entitlements "$ENTITLEMENTS_PATH" "$APP_DIR"
 
