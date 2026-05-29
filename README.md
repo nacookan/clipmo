@@ -5,12 +5,20 @@ It records copied content, opens a menu via hot key or menu bar click, and lets 
 
 Core features include snippets, text transforms (built-in + regex-based custom), file copy support with path history, and OCR text extraction from copied image data.
 
+Available in English and Japanese.
+
 Detailed documentation below is in Japanese.
 
 ---
 
 Clipmo は macOS 向けのクリップボード履歴ツールです。  
 コピーしたものを履歴として残し、ホットキーまたはメニューバーアイコンから一覧を開いて、選んでそのまま貼り付けられます。
+
+![Clipmo screenshot](docs/screen1.png)
+
+## ダウンロード
+
+最新バージョンは[リリースページ](../../releases/latest)からダウンロードできます。
 
 ## 最初に知ってほしいこと
 
