@@ -12,7 +12,7 @@
 	<key>CFBundleExecutable</key>
 	<string>Clipmo</string>
 	<key>CFBundleIdentifier</key>
-	<string>local.clipmo.app</string>
+	<string>com.nacookan.clipmo</string>
 	<key>CFBundleIconName</key>
 	<string>AppIcon</string>
 	<key>CFBundleInfoDictionaryVersion</key>

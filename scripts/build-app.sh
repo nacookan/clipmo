@@ -58,8 +58,7 @@ if [[ -d "$ROOT_DIR/Resources/Assets.xcassets" ]]; then
   rm -f "$APP_DIR/Contents/Resources/actool-info.plist"
 fi
 
-if command -v codesign >/dev/null 2>&1; then
-  codesign --force --deep --sign - "$APP_DIR" >/dev/null 2>&1 || true
-fi
+ENTITLEMENTS_PATH="$ROOT_DIR/Resources/Clipmo.entitlements"
+codesign --force --deep --sign - --entitlements "$ENTITLEMENTS_PATH" "$APP_DIR"
 
 echo "$APP_DIR"
