@@ -11,7 +11,6 @@ struct HotKeyMenuSequenceController {
     private var isRotationArmed = false
     private var queuedScope: HotKeyMenuScope?
     private var suppressedCallbacks = 0
-    private var suppressCallbacksUntil: Date?
 
     mutating func updateRotation(configNames: [String]) {
         let resolvedRotation = configNames.compactMap(HotKeyMenuScope.init(configName:))
@@ -81,22 +80,12 @@ struct HotKeyMenuSequenceController {
         isRotationArmed = false
     }
 
-    mutating func consumeSuppressedCallbackIfNeeded(now: Date = Date()) -> Bool {
+    mutating func consumeSuppressedCallbackIfNeeded() -> Bool {
         guard suppressedCallbacks > 0 else {
             return false
         }
 
-        if let deadline = suppressCallbacksUntil, now > deadline {
-            suppressedCallbacks = 0
-            suppressCallbacksUntil = nil
-            return false
-        }
-
         suppressedCallbacks -= 1
-        if suppressedCallbacks == 0 {
-            suppressCallbacksUntil = nil
-        }
-
         return true
     }
 
@@ -108,6 +97,5 @@ struct HotKeyMenuSequenceController {
         currentRotationIndex = (currentRotationIndex + 1) % rotation.count
         queuedScope = rotation[currentRotationIndex]
         suppressedCallbacks += 1
-        suppressCallbacksUntil = Date().addingTimeInterval(0.5)
     }
 }
