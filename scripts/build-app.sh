@@ -16,9 +16,10 @@ fi
 HOME="$HOME_DIR" \
 SWIFTPM_MODULECACHE_OVERRIDE="$MODULE_CACHE_DIR" \
 CLANG_MODULE_CACHE_PATH="$MODULE_CACHE_DIR" \
-swift build -c release --package-path "$ROOT_DIR"
+swift build -c release --arch arm64 --arch x86_64 --package-path "$ROOT_DIR"
 
 for candidate in \
+  "$ROOT_DIR/.build/apple/Products/Release/Clipmo" \
   "$ROOT_DIR/.build/release/Clipmo" \
   "$ROOT_DIR/.build/arm64-apple-macosx/release/Clipmo" \
   "$ROOT_DIR/.build/x86_64-apple-macosx/release/Clipmo"
